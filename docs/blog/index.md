@@ -10,42 +10,54 @@ Stay up to date with our most recent articles covering everything from new featu
 
 Explore posts by category:
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown="1">
 
 -   :material-bullhorn:{ .lg .middle } **Announcements**
+
     ---
+
     Product updates, new features, and important announcements.
-    
+
     Browse posts in this category below.
 
 -   :material-school:{ .lg .middle } **Tutorials**
+
     ---
+
     Step-by-step guides and tutorials to help you get the most out of KloudiHub.
-    
+
     Browse posts in this category below.
 
 -   :material-lightbulb-on:{ .lg .middle } **Best Practices**
+
     ---
+
     Learn industry best practices and proven strategies for cloud deployment.
-    
+
     Browse posts in this category below.
 
 -   :material-shield-check:{ .lg .middle } **Security**
+
     ---
+
     Security updates, best practices, and tips to keep your applications secure.
-    
+
     Browse posts in this category below.
 
 -   :material-speedometer:{ .lg .middle } **Performance**
+
     ---
+
     Tips and tricks to optimize your application's performance.
-    
+
     Browse posts in this category below.
 
 -   :material-account-group:{ .lg .middle } **Community**
+
     ---
+
     Community updates, events, and featured projects.
-    
+
     Browse posts in this category below.
 
 </div>
