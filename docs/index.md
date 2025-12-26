@@ -14,25 +14,25 @@ New to KloudiHub? Start here:
 
 <div class="grid cards" markdown>
 
--   🚀 **Getting Started**
+-   🚀 **[Getting Started](guides/installation.md)**
     ---
     New to KloudiHub? Start with our installation and quick start guides.
-    [:octicons-arrow-right-24: Get Started](guides/installation.md)
+    [→ Get Started](guides/installation.md)
 
--   📖 **Guides**
+-   📖 **[Guides](guides/index.md)**
     ---
     Step-by-step tutorials and comprehensive guides for common tasks.
-    [:octicons-arrow-right-24: View Guides](guides/index.md)
+    [→ View Guides](guides/index.md)
 
--   💻 **API Reference**
+-   💻 **[API Reference](api/index.md)**
     ---
     Complete API documentation with examples and code snippets.
-    [:octicons-arrow-right-24: API Docs](api/index.md)
+    [→ API Docs](api/index.md)
 
--   ⚙️ **Configuration**
+-   ⚙️ **[Configuration](guides/configuration.md)**
     ---
     Learn how to configure and customize KloudiHub for your needs.
-    [:octicons-arrow-right-24: Configure](guides/configuration.md)
+    [→ Configure](guides/configuration.md)
 
 </div>
 

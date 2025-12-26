@@ -12,32 +12,32 @@ Explore posts by category:
 
 <div class="grid cards" markdown>
 
--   📢 **Announcements**
+-   📢 **[Announcements](index.md#announcements)**
     ---
     Product updates, new features, and important announcements.
     Browse posts in this category below.
 
--   📚 **Tutorials**
+-   📚 **[Tutorials](index.md#tutorials)**
     ---
     Step-by-step guides and tutorials to help you get the most out of KloudiHub.
     Browse posts in this category below.
 
--   💡 **Best Practices**
+-   💡 **[Best Practices](index.md#best-practices)**
     ---
     Learn industry best practices and proven strategies for cloud deployment.
     Browse posts in this category below.
 
--   🔒 **Security**
+-   🔒 **[Security](index.md#security)**
     ---
     Security updates, best practices, and tips to keep your applications secure.
     Browse posts in this category below.
 
--   ⚡ **Performance**
+-   ⚡ **[Performance](index.md#performance)**
     ---
     Tips and tricks to optimize your application's performance.
     Browse posts in this category below.
 
--   👥 **Community**
+-   👥 **[Community](index.md#community)**
     ---
     Community updates, events, and featured projects.
     Browse posts in this category below.
