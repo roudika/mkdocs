@@ -6,9 +6,9 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  # Branding
-  logo: material/cloud-outline  # You can replace this with an svg/png in your docs folder
+  # If using a built-in icon as a logo:
   icon:
+    logo: material/cloud-outline
     repo: fontawesome/brands/github
 
   # Features (Fixed Navigation)
