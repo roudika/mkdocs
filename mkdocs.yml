@@ -60,6 +60,7 @@ plugins:
       archive_layout: grid      # Blog posts appear as cards
       categories_layout: grid
       post_excerpt: optional
+      authors_file: blog/authors.yml
   - search
   - minify:                     # Uses mkdocs-minify-plugin
       minify_html: true

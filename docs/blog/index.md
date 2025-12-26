@@ -12,6 +12,6 @@ Welcome to the central hub for our documentation and news.
 -   :material-book-open-variant:{ .lg .middle } **Guides**
     ---
     Step-by-step technical tutorials.
-    [:octicons-arrow-right-24: Start Learning](about.md)
+    [:octicons-arrow-right-24: Start Learning](../about.md)
 
 </div>
