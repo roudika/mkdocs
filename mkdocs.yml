@@ -1,6 +1,28 @@
+site_name: KloudiHub Docs
+site_url: https://mkdocs.roudi.workers.dev/
+site_author: Mahdi
+repo_url: https://github.com/roudika/mkdocs
+edit_uri: edit/main/docs/
+
 theme:
   name: material
-  palette: 
+  # Branding
+  logo: material/cloud-outline  # You can replace this with an svg/png in your docs folder
+  icon:
+    repo: fontawesome/brands/github
+
+  # Features (Fixed Navigation)
+  features:
+    - navigation.tabs           # Enables the top navigation bar
+    - navigation.tabs.sticky    # Keeps tabs visible
+    - navigation.top            # Back to top button
+    - navigation.tracking       # URL updates on scroll
+    - search.suggest
+    - search.highlight
+    - content.code.copy         # Copy button for code snippets
+
+  # Color Palette
+  palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -15,18 +37,26 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy # Adds a 'copy' button to all code blocks
 
+# Navigation Structure
+nav:
+  - Home: index.md
+  - About: about.md
+
+# Plugins (Matching your requirements.txt)
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Extensions for Technical Accuracy
 markdown_extensions:
   - admonition
-  - pymdownx.details # Collapsible blocks
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences # Required for nesting code in lists/admonitions
+      line_spans: __span
+      pygments_lang_class: true
+  - toc:
+      permalink: true
