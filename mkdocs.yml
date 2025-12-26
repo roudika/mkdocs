@@ -2,8 +2,8 @@
 # Version: Update this version number whenever you make changes
 # Format: Major.Minor.Patch (e.g., 1.0.0, 1.1.0, 2.0.0)
 # This version will appear in the navbar
-version: "1.0.3"
-site_name: "KloudiHub Docs v1.0.3"
+version: "1.0.4"
+site_name: "KloudiHub Docs v1.0.4"
 site_url: https://docs.kloudihub.com/
 site_author: Mahdi
 site_description: >-
