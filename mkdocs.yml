@@ -45,6 +45,9 @@ nav:
 
 # Plugins (Matching your requirements.txt)
 plugins:
+  - blog:
+      post_excerpt: optional # Shows a summary on the main blog page
+      authors_file: "{blog}/authors.yml" # Optional: for multiple authors
   - search
   - minify:
       minify_html: true
