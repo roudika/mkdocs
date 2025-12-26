@@ -10,3 +10,13 @@
 .md-typeset .grid.cards :material-clock-fast {
   color: #3f51b5;
 }
+
+/* Customize footer - Hide "Made with Material for MkDocs" */
+.md-footer-meta__inner a[href*="squidfunk"] {
+  display: none;
+}
+
+/* Alternative: Hide the entire "Made with" section */
+.md-footer-meta__inner .md-footer-meta__highlight {
+  display: none;
+}

@@ -21,6 +21,13 @@ theme:
     logo: material/cloud-outline
     repo: fontawesome/brands/github
   
+  # Footer
+  copyright: Copyright &copy; 2025 KloudiHub
+  
+  # Custom CSS
+  extra_css:
+    - stylesheets/extra.css
+  
   # Layout & UI Features
   features:
     - navigation.tabs           # Top horizontal navigation
