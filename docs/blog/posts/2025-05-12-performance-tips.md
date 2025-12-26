@@ -8,7 +8,9 @@ categories:
 
 # 5 Performance Tips for Faster Applications
 
-Performance matters. Here are five actionable tips to make your applications faster.
+Performance matters. Here are five actionable tips to make your applications faster, from database optimization to CDN usage.
+
+<!-- more -->
 
 ## 1. Optimize Your Database Queries
 

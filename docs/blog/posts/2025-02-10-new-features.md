@@ -8,7 +8,9 @@ categories:
 
 # Exciting New Features Released
 
-We're thrilled to announce several new features that will enhance your experience with KloudiHub!
+We're thrilled to announce several new features that will enhance your experience with KloudiHub! From an enhanced dashboard to improved API performance, there's something for everyone.
+
+<!-- more -->
 
 ## What's New
 

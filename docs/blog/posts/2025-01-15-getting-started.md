@@ -10,6 +10,8 @@ categories:
 
 Welcome to KloudiHub! This guide will help you get up and running quickly.
 
+<!-- more -->
+
 ## What is KloudiHub?
 
 KloudiHub is a powerful platform designed to simplify cloud infrastructure management and deployment workflows.

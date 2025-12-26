@@ -73,7 +73,15 @@ nav:
     - FAQ: guides/faq.md
   - API Reference:
     - API Overview: api/index.md
-  - Blog: blog/index.md
+  - Blog:
+    - Blog Home: blog/index.md
+    - Welcome to KloudiHub Blog: blog/posts/2025-12-26-welcome.md
+    - Security Update and Best Practices: blog/posts/2025-06-18-security-update.md
+    - 5 Performance Tips for Faster Applications: blog/posts/2025-05-12-performance-tips.md
+    - Community Update: April 2025: blog/posts/2025-04-20-community-update.md
+    - Best Practices for Cloud Deployment: blog/posts/2025-03-05-best-practices.md
+    - Exciting New Features Released: blog/posts/2025-02-10-new-features.md
+    - Getting Started with KloudiHub: blog/posts/2025-01-15-getting-started.md
   - About: about.md
 
 # Plugins (Order is important)

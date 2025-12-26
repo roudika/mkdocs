@@ -8,7 +8,9 @@ categories:
 
 # Best Practices for Cloud Deployment
 
-Over the years, we've learned a lot about deploying applications to the cloud. Here are some essential best practices.
+Over the years, we've learned a lot about deploying applications to the cloud. Here are some essential best practices that will help you deploy with confidence.
+
+<!-- more -->
 
 ## Security First
 

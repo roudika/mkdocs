@@ -8,7 +8,9 @@ categories:
 
 # Security Update and Best Practices
 
-Security is our top priority. Here's an important update on our security practices and recommendations.
+Security is our top priority. Here's an important update on our security practices, recent enhancements, and recommendations to keep your applications secure.
+
+<!-- more -->
 
 ## Recent Security Enhancements
 

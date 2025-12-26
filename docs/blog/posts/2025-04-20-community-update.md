@@ -8,7 +8,9 @@ categories:
 
 # Community Update: April 2025
 
-It's been an amazing month for the KloudiHub community! Here's what's been happening.
+It's been an amazing month for the KloudiHub community! We've hit some major milestones and have exciting updates to share.
+
+<!-- more -->
 
 ## Community Growth
 
