@@ -10,17 +10,22 @@ Stay up to date with our most recent articles covering everything from new featu
 
 Explore posts by category:
 
-### Option 2: Badges/Chips (Horizontal)
-
-<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem;">
-  <span class="md-typeset"><a class="md-button md-button--primary" href="#announcements">📢 Announcements</a></span>
-  <span class="md-typeset"><a class="md-button md-button--primary" href="#tutorials">📚 Tutorials</a></span>
-  <span class="md-typeset"><a class="md-button md-button--primary" href="#best-practices">💡 Best Practices</a></span>
-</div>
-
-### Option 6: Button Grid
-
 <div class="grid cards" markdown>
+
+-   📢 **Announcements**
+    ---
+    Product updates, new features, and important announcements.
+    Browse posts in this category below.
+
+-   📚 **Tutorials**
+    ---
+    Step-by-step guides and tutorials to help you get the most out of KloudiHub.
+    Browse posts in this category below.
+
+-   💡 **Best Practices**
+    ---
+    Learn industry best practices and proven strategies for cloud deployment.
+    Browse posts in this category below.
 
 -   🔒 **Security**
     ---
