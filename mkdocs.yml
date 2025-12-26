@@ -1,27 +1,37 @@
+# Project Information
 site_name: KloudiHub Docs
 site_url: https://docs.kloudihub.com/
 site_author: Mahdi
+site_description: >-
+  Official technical documentation and blog for KloudiHub. 
+  Explore our guides, tutorials, and project updates.
+
+# Repository Integration
+repo_name: roudika/mkdocs
 repo_url: https://github.com/roudika/mkdocs
 edit_uri: edit/main/docs/
 
+# Configuration
 theme:
   name: material
-  # If using a built-in icon as a logo:
+  language: en
+  
+  # Branding & Icons
   icon:
     logo: material/cloud-outline
     repo: fontawesome/brands/github
-
-  # Features (Fixed Navigation)
+  
+  # Layout & UI Features
   features:
-    - navigation.tabs           # Enables the top navigation bar
-    - navigation.tabs.sticky    # Keeps tabs visible
+    - navigation.tabs           # Top horizontal navigation
+    - navigation.tabs.sticky    # Header stays at the top
     - navigation.top            # Back to top button
-    - navigation.tracking       # URL updates on scroll
-    - search.suggest
-    - search.highlight
-    - content.code.copy         # Copy button for code snippets
+    - navigation.tracking       # Highlights nav based on scroll
+    - search.suggest            # Search type-ahead
+    - search.highlight          # Highlight terms in results
+    - content.code.copy         # Copy button on code blocks
 
-  # Color Palette
+  # Design Palette (Light/Dark Toggle)
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -41,25 +51,38 @@ theme:
 # Navigation Structure
 nav:
   - Home: index.md
+  - Blog: blog/index.md
   - About: about.md
 
-# Plugins (Matching your requirements.txt)
+# Plugins (Order is important)
 plugins:
   - blog:
-      post_excerpt: optional # Shows a summary on the main blog page
-      authors_file: "{blog}/authors.yml" # Optional: for multiple authors
+      archive_layout: grid      # Blog posts appear as cards
+      categories_layout: grid
+      post_excerpt: optional
   - search
-  - minify:
+  - minify:                     # Uses mkdocs-minify-plugin
       minify_html: true
+  - social:                     # Generates social share images
+      cards_layout: theme/letter
+  - sitemap:                    # SEO: Generates sitemap.xml
+      priorities:
+        index.md: 1.0
+        blog/index.md: 0.8
+      changefreqs:
+        index.md: daily
+        blog/index.md: weekly
 
-# Extensions for Technical Accuracy
+# Markdown Extensions (Enables Cards and Rich Content)
 markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight:
+  - attr_list                   # Required for card styling
+  - md_in_html                  # Required for <div> support
+  - admonition                  # Info/Warning boxes
+  - pymdownx.details            # Collapsible blocks
+  - pymdownx.superfences        # Required for code in cards
+  - pymdownx.highlight:         # Syntax highlighting
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - toc:
-      permalink: true
+      permalink: true           # Anchor links for headers
