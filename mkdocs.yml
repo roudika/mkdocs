@@ -51,6 +51,28 @@ theme:
 # Navigation Structure
 nav:
   - Home: index.md
+  - Getting Started:
+    - Installation: guides/installation.md
+    - Quick Start: guides/quickstart.md
+    - Core Concepts: guides/concepts.md
+  - Guides:
+    - Guides Overview: guides/index.md
+    - Configuration: guides/configuration.md
+    - Environment Variables: guides/environment-variables.md
+    - Networking: guides/networking.md
+    - Deployment: guides/deployment.md
+    - CI/CD Integration: guides/cicd.md
+    - Rolling Updates: guides/rolling-updates.md
+    - Scaling: guides/scaling.md
+    - Monitoring & Logging: guides/monitoring.md
+    - Backup & Recovery: guides/backup.md
+    - Security: guides/security.md
+    - Authentication: guides/authentication.md
+    - SSL/TLS: guides/ssl-tls.md
+    - Troubleshooting: guides/troubleshooting.md
+    - FAQ: guides/faq.md
+  - API Reference:
+    - API Overview: api/index.md
   - Blog: blog/index.md
   - About: about.md
 

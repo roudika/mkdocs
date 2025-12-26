@@ -1,6 +1,6 @@
-# KloudiHub Docs
+# Blog
 
-Welcome to the central hub for our documentation and news.
+Welcome to the KloudiHub blog. Stay updated with our latest news and updates.
 
 <div class="grid cards" markdown>
 
