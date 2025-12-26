@@ -1,5 +1,9 @@
 # Project Information
-site_name: KloudiHub Docs
+# Version: Update this version number whenever you make changes
+# Format: Major.Minor.Patch (e.g., 1.0.0, 1.1.0, 2.0.0)
+# This version will appear in the navbar
+version: "1.0.0"
+site_name: "KloudiHub Docs v1.0.0"
 site_url: https://docs.kloudihub.com/
 site_author: Mahdi
 site_description: >-
@@ -21,12 +25,19 @@ theme:
     logo: material/cloud-outline
     repo: fontawesome/brands/github
   
+  # Version Badge (appears in navbar)
+  # Note: Version is also shown in site_name via CSS
+  
   # Footer
   copyright: Copyright &copy; 2025 KloudiHub
   
   # Custom CSS
   extra_css:
     - stylesheets/extra.css
+  
+  # Custom JavaScript
+  extra_javascript:
+    - javascripts/version-badge.js
   
   # Layout & UI Features
   features:
@@ -85,7 +96,7 @@ nav:
     - Welcome to KloudiHub Blog: blog/posts/2025-12-26-welcome.md
     - Security Update and Best Practices: blog/posts/2025-06-18-security-update.md
     - 5 Performance Tips for Faster Applications: blog/posts/2025-05-12-performance-tips.md
-    - Community Update: April 2025: blog/posts/2025-04-20-community-update.md
+    - "Community Update: April 2025": blog/posts/2025-04-20-community-update.md
     - Best Practices for Cloud Deployment: blog/posts/2025-03-05-best-practices.md
     - Exciting New Features Released: blog/posts/2025-02-10-new-features.md
     - Getting Started with KloudiHub: blog/posts/2025-01-15-getting-started.md

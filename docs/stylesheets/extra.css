@@ -20,3 +20,59 @@
 .md-footer-meta__inner .md-footer-meta__highlight {
   display: none;
 }
+
+/* Version Badge in Navbar - CSS-only approach */
+/* The version is included in site_name, and this styles it */
+.md-header__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Style the version text that appears after "KloudiHub Docs" */
+.md-header__title {
+  white-space: nowrap;
+}
+
+/* Target version text using CSS (works if version is in site_name) */
+.md-header__title::after {
+  content: attr(data-version);
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: var(--md-primary-bg-color);
+  border-radius: 0.3rem;
+  vertical-align: middle;
+  line-height: 1.4;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.md-header__title:hover::after {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Alternative: Style version badge if using JavaScript approach */
+.md-header__title .version-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: var(--md-primary-bg-color);
+  border-radius: 0.3rem;
+  vertical-align: middle;
+  line-height: 1.4;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.md-header__title .version-badge:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+}
